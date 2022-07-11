@@ -11,7 +11,13 @@ import {
   
   export default function SplitScreen() {
     return (
-      <Stack p={10} direction={{ base: 'column', md: 'row' }}>
+      <Stack 
+      p={10} 
+      m={10} 
+      //borderRadius={10}
+      //bg={"gray.100"} 
+      direction={{ base: 'column', md: 'row' }}
+      >
         
         <Flex
         pt={10}
@@ -44,7 +50,7 @@ import {
                 fontSize={'100%'}
                 as={'span'}
                 position={'relative'}
-                _after={{
+               /**  _after={{
                   content: "''",
                   width: 'full',
                   height: useBreakpointValue({ base: '20%', md: '30%' }),
@@ -53,17 +59,14 @@ import {
                   left: 0,
                   bg: 'blue.200',
                   zIndex: -1,
-                }}>
+                }}*/>
                 Jacey Buchner
               </Text>
               
             </Heading>
-            <Text fontSize={{ base: 'md', lg: 'lg' }} color={'gray.500'}>
+            <Text fontSize={{ base: 'lg', lg: 'xl' }} color={'gray.500'}>
                 I'm a Sophomore studying Computer Science at UC Santa Barbara! 
-                
             <br></br>
-                
-               
             </Text>
             
             <Stack direction={{ base: 'row', md: 'row' }} spacing={4}>

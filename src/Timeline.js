@@ -1,12 +1,21 @@
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
-import {Stack} from "@chakra-ui/react";
+import {Heading, Stack} from "@chakra-ui/react";
 
 export default function Timeline () {
     return (
         <>
         
         <Stack p={10} direction={{ base: 'column', md: 'column' }} spacing={4}>
+        <Heading
+            margin={0}
+            pl={10}
+            fontWeight={500}
+            fontSize={{ base: '1xl', sm: '2xl', md: '4xl' }}
+            lineHeight={'100%'}>
+            experience
+        </Heading>
+<VerticalTimeline layout={"1-column"} lineColor={"gray"}>
         <VerticalTimelineElement
             
             className="vertical-timeline-element--work"
@@ -47,7 +56,7 @@ export default function Timeline () {
             </p>
         </VerticalTimelineElement>
         
-        
+        </VerticalTimeline>
         
         </Stack>
        

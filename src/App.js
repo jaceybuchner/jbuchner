@@ -15,16 +15,21 @@ import Simple from './Navbar';
 import SplitScreen from './About';
 import Experience from './Experience';
 import Timeline from './Timeline';
+import Projects from './Projects';
+import Me from './Me';
+
 
 function App() {
   return (
     <ChakraProvider theme={theme}>
-      <Box fontSize={'xl'} >
+      <Box fontSize={'2xl'} >
         <Simple>
         </Simple>
     
         <SplitScreen />
-        <Timeline />
+        <Me />
+        <Projects/>
+        <Experience />
       </Box>
     </ChakraProvider>
   );
