@@ -23,7 +23,7 @@ export default function skills() {
         //borderRadius={10} bg={"gray.100"} 
         pr={20}
         pl={20} >
-            <Heading  mb={6}>my skills.<Emoji symbol=" 🧮"/> </Heading>
+            <Heading mb={9}>my skills.<Emoji symbol=" 🧮"/> </Heading>
             
             <SimpleGrid fontSize={"lg"}columns={{ base: 1, md: 2 }} spacing={10}>
               

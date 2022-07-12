@@ -42,7 +42,7 @@ export default function Me() {
        
          <Text mb={4} fontSize={{ base: 'lg', lg: 'xl' }} color={'gray.700'}>
          <span style={{fontWeight: 'bold'}}>now:</span> Working at <Link href="https://healthy.kaiserpermanente.org/northern-california/front-door" bg={"blue.100"}>Kaiser Permanente</Link> as a Product Management Intern and helping grow the 
-            <Link href="https://www.blockchainatucsb.com/" isExternal bg={"red.100"}> Blockchain @ UCSB </Link>
+            <Link href="https://www.blockchainatucsb.com/" isExternal bg={"blue.100"}> Blockchain @ UCSB </Link>
              club as the incoming Vice President.
             
         </Text>  

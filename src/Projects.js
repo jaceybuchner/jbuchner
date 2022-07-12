@@ -1,6 +1,6 @@
 import Project from './Project';
 import { ReactElement } from 'react';
-import { Image, useColorModeValue, Code,  Link, Box, SimpleGrid, Icon, Text, Stack, Flex, Heading } from '@chakra-ui/react';
+import {  Image, useColorModeValue, Code,  Link, Box, SimpleGrid, Icon, Text, Stack, Flex, Heading } from '@chakra-ui/react';
 import { FcAssistant, FcDonate, FcInTransit, FcOk } from 'react-icons/fc';
 import {
     Modal,
@@ -12,6 +12,7 @@ import {
     ModalCloseButton,
   } from '@chakra-ui/react'
 import Emoji from './emoji';
+import { ExternalLinkIcon } from '@chakra-ui/icons'
 
 const Feature = ({ url, title, text, icon, lnk, linkcolor, l1, l2, l3}: FeatureProps) => {
   return (
@@ -21,7 +22,7 @@ const Feature = ({ url, title, text, icon, lnk, linkcolor, l1, l2, l3}: FeatureP
     
     {<Image
             height={'10vh'}
-          
+            mb={'2'}
             maxW={"90%"}
             alt={'Login Image'}
             objectFit={'contain'}
@@ -31,7 +32,7 @@ const Feature = ({ url, title, text, icon, lnk, linkcolor, l1, l2, l3}: FeatureP
       /> } 
       </Link>
       
-      <Text fontWeight={600}><Link bg={linkcolor} href={lnk}>{title}</Link></Text>
+      <Text fontWeight={600}><Link isExternal bg={linkcolor} href={lnk}> {title} <ExternalLinkIcon mx='1px' /></Link></Text>
       <Text color={'gray.600'}>{text}</Text>
       <Stack direction='row'>
       <Text fontSize={14}>STACK: </Text> 
@@ -49,7 +50,8 @@ export default function Projects() {
     //borderRadius={10} bg={"gray.100"} 
     pr={20}
     pl={20} >
-        <Heading mb={6}>my projects. <Emoji symbol="🛠"/> </Heading>
+        
+        <Heading mb={9}>my projects. <Emoji symbol="🛠"/> </Heading>
         
         <SimpleGrid columns={{ base: 1, md: 2 }} spacing={10}>
           
@@ -73,7 +75,7 @@ export default function Projects() {
           icon={<Icon as={FcOk} w={10} h={10} />}
           title={'30Seconds'}
           text={
-            'Website that offer Behavioral Interview Practice. Uses a speech-to-text API to offer feedback of self-recorded interviews. '
+            'Website that offers Behavioral Interview Practice. Uses a speech-to-text API to offer feedback of self-recorded interviews. '
           }
           lnk={"https://seconds-ef259.web.app/"}
           //linkcolor={"green.200"}

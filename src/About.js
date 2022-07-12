@@ -6,6 +6,8 @@ import {
     Image,
     Stack,
     Text,
+    Link,
+
     useBreakpointValue,
   } from '@chakra-ui/react';
 import Emoji from './emoji';
@@ -16,8 +18,9 @@ import Emoji from './emoji';
 
       p={10} 
       m={10} 
-      borderRadius={10}
-      //bg={"white.100"} 
+      //borderRadius={1}
+      //bg={"gray.100"}
+      
       
       direction={{ base: 'column', md: 'row' }}
       >
@@ -70,16 +73,7 @@ import Emoji from './emoji';
                 fontSize={'100%'}
                 as={'span'}
                 position={'relative'}
-               /**  _after={{
-                  content: "''",
-                  width: 'full',
-                  height: useBreakpointValue({ base: '20%', md: '30%' }),
-                  position: 'absolute',
-                  bottom: 1,
-                  left: 0,
-                  bg: 'blue.200',
-                  zIndex: -1,
-                }}*/>
+               >
                 Jacey Buchner. 
               
               </Text>
@@ -93,7 +87,9 @@ import Emoji from './emoji';
             
             <Stack direction={{ base: 'row', md: 'row' }} spacing={4}>
                 
+              <Link isExternal style={{textDecoration: 'none'}} href="https://www.linkedin.com/in/jaceybuchner/">
               <Button
+                
                 rounded={'9'}
                 bg={'gray.200'}
                 color={'blackAlpha.700'}
@@ -103,7 +99,8 @@ import Emoji from './emoji';
                 }}>
                 LinkedIn
               </Button>
-              
+              </Link>
+
               <Button
                 rounded={'9'}
                 bg={'gray.200'}
@@ -115,6 +112,7 @@ import Emoji from './emoji';
                 Resume
               </Button>
 
+              <Link isExternal style={{textDecoration: 'none'}} href="jaceybuchner@gmail.com">
               <Button
                 rounded={'9'}
                 bg={'gray.200'}
@@ -125,7 +123,7 @@ import Emoji from './emoji';
                 }}>
                 Email
               </Button>
-
+                </Link>
             </Stack>
           </Stack>
         </Flex>

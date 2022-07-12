@@ -12,7 +12,7 @@ import {
 } from '@chakra-ui/react';
 import { ColorModeSwitcher } from './ColorModeSwitcher';
 import { Logo } from './Logo';
-import Simple from './Navbar';
+import Navbar from './Navbar';
 import SplitScreen from './About';
 import Experience from './Experience';
 import Timeline from './Timeline';
@@ -25,9 +25,7 @@ function App() {
   return (
     <ChakraProvider theme={theme}>
       <Box fontSize={'xl'} >
-        <Simple>
-        </Simple>
-    
+        <Navbar />
         <SplitScreen />
         <br></br>
         <Me />
