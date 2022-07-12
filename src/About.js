@@ -12,10 +12,12 @@ import {
   export default function SplitScreen() {
     return (
       <Stack 
+
       p={10} 
       m={10} 
-      //borderRadius={10}
-      //bg={"gray.100"} 
+      borderRadius={10}
+      //bg={"white.100"} 
+      
       direction={{ base: 'column', md: 'row' }}
       >
         
@@ -45,7 +47,6 @@ import {
                 
             <Text color={'black.400'} paddingLeft={0}as={'span'}>
               </Text>{' '}
-              <br />{' '}
               <Text
                 fontSize={'100%'}
                 as={'span'}
@@ -60,12 +61,30 @@ import {
                   bg: 'blue.200',
                   zIndex: -1,
                 }}*/>
-                Jacey Buchner
+                Hi, I'm
+              </Text>
+              <br />{' '}
+              
+              <Text
+                fontSize={'100%'}
+                as={'span'}
+                position={'relative'}
+               /**  _after={{
+                  content: "''",
+                  width: 'full',
+                  height: useBreakpointValue({ base: '20%', md: '30%' }),
+                  position: 'absolute',
+                  bottom: 1,
+                  left: 0,
+                  bg: 'blue.200',
+                  zIndex: -1,
+                }}*/>
+                Jacey Buchner.
               </Text>
               
             </Heading>
             <Text fontSize={{ base: 'lg', lg: 'xl' }} color={'gray.500'}>
-                I'm a Sophomore studying Computer Science at UC Santa Barbara! 
+                A programmer, studying Computer Science at UC Santa Barbara! 
             <br></br>
             </Text>
             

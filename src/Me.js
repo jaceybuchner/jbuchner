@@ -29,32 +29,41 @@ export default function Me() {
   return (
     <Box margin={10} 
     //borderRadius={10} bg={"gray.100"} 
+    
     pr={20} 
     pl={20}>
-        <Heading mb={5}>about me </Heading>
+        <Heading mb={5}>about me. </Heading>
     
     {/* <Highlighted 
       text="the quick brown fox jumps over the lazy dog"
       highlight="fox"
     /> */}
 
-         <Text mb={3} fontSize={{ base: 'lg', lg: 'xl' }} color={'gray.700'}>
-            now: Working at <Link href="https://healthy.kaiserpermanente.org/northern-california/front-door" bg={"blue.100"}>Kaiser Permanente</Link> as a PM Intern and helping grow the 
+       
+         <Text mb={4} fontSize={{ base: 'lg', lg: 'xl' }} color={'gray.700'}>
+         <span style={{fontWeight: 'bold'}}>now:</span> Working at <Link href="https://healthy.kaiserpermanente.org/northern-california/front-door" bg={"blue.100"}>Kaiser Permanente</Link> as a Product Management Intern and helping grow the 
             <Link href="https://www.blockchainatucsb.com/" isExternal bg={"red.100"}> Blockchain @ UCSB </Link>
-             club as ___ .
-            <br></br>I spend my time listening to tech podcasts (Lex Fridman), playing ukulele, skiing and getting 
-            boba with friends!
+             club as the incoming Vice President.
             
         </Text>  
-        
 
-        <Text mb={3}fontSize={{ base: 'lg', lg: 'xl' }} color={'gray.700'}>
-        interests: I'm very interested in learning more about Distributed Systems and Blockchain technologies, 
+        <Text mb={2} fontSize={{ base: 'lg', lg: 'xl' }} color={'gray.700'}>
+        <span style={{fontWeight: 'bold'}}>before:   </span> During the spring, I worked at <Link bg="gray.200"href="https://www.berkeleypharmatech.com/"> Berkeley Pharma Tech</Link> as a Software Engineer Intern. I worked on 
+            a collection of 10,000 art tokens to fund research into fast-growing redwood trees. 
+            
+        
+        </Text>  
+        <Text mb={4} fontSize={{ base: 'lg', lg: 'xl' }} color={'gray.700'}>
+        Prior to BPT I worked as a Web Developer at <Link bg={"green.100"}>Gladiators of Communication</Link>, where I created website to teach public speaking to kids through a collaborative game.
+        </Text>  
+
+        <Text mb={4}fontSize={{ base: 'lg', lg: 'xl' }} color={'gray.700'}>
+        <span style={{fontWeight: 'bold'}}>interests: </span> I'm interested in learning more about Distributed Systems and Blockchain technologies, 
         Autonomous Driving and Security! 
         </Text>
 
         <Text fontSize={{ base: 'lg', lg: 'xl' }} color={'gray.700'}>
-        courses: I have taken courses ranging from Obj. Oriented Design in C++, Discrete Structures to 
+        <span style={{fontWeight: 'bold'}}>courses: </span> I have taken courses ranging from Obj. Oriented Design in C++, Discrete Structures to 
         Differential Equations and History of Philosophy.
         </Text>
         

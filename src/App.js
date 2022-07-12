@@ -1,6 +1,7 @@
 import React from 'react';
 import {
   ChakraProvider,
+  Divider, 
   Box,
   Text,
   Link,
@@ -17,19 +18,23 @@ import Experience from './Experience';
 import Timeline from './Timeline';
 import Projects from './Projects';
 import Me from './Me';
-
+import Project from './Project';
+import Skills from './skills';
 
 function App() {
   return (
     <ChakraProvider theme={theme}>
-      <Box fontSize={'2xl'} >
+      <Box fontSize={'xl'} >
         <Simple>
         </Simple>
     
         <SplitScreen />
+        <br></br>
         <Me />
+        <br></br>
         <Projects/>
-        <Experience />
+        <br></br>
+        <Skills/>
       </Box>
     </ChakraProvider>
   );
