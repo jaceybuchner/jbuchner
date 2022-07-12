@@ -8,7 +8,8 @@ import {
     Text,
     useBreakpointValue,
   } from '@chakra-ui/react';
-  
+import Emoji from './emoji';
+
   export default function SplitScreen() {
     return (
       <Stack 
@@ -79,12 +80,14 @@ import {
                   bg: 'blue.200',
                   zIndex: -1,
                 }}*/>
-                Jacey Buchner.
+                Jacey Buchner. 
+              
               </Text>
               
             </Heading>
-            <Text fontSize={{ base: 'lg', lg: 'xl' }} color={'gray.500'}>
+            <Text fontSize={{ base: 'lg', lg: 'xl' }} color={'gray.600'}>
                 A programmer, studying Computer Science at UC Santa Barbara! 
+                <Emoji symbol=" 👨‍💻️🌴"></Emoji>
             <br></br>
             </Text>
             

@@ -14,7 +14,7 @@ import {
   theme,
 } from '@chakra-ui/react';
 import { Progress } from '@chakra-ui/react'
-
+import Emoji from './emoji';
  
 
 export default function skills() {
@@ -23,13 +23,13 @@ export default function skills() {
         //borderRadius={10} bg={"gray.100"} 
         pr={20}
         pl={20} >
-            <Heading  mb={5}>my skills. </Heading>
+            <Heading  mb={6}>my skills.<Emoji symbol=" 🧮"/> </Heading>
             
-            <SimpleGrid columns={{ base: 1, md: 2 }} spacing={10}>
+            <SimpleGrid fontSize={"lg"}columns={{ base: 1, md: 2 }} spacing={10}>
               
                
                 <Box>
-                    <Stack mb={1} direction={'row'}>
+                    <Stack spacing={'auto'} mb={1} direction={'row'}>
                         <Text>C/C++</Text>
                         <Text >Experienced</Text>
                     </Stack>
@@ -37,7 +37,7 @@ export default function skills() {
                 </Box>
 
                 <Box>
-                    <Stack mb={1} direction={'row'}>
+                    <Stack  spacing={'auto'}mb={1} direction={'row'}>
                         <Text>HTML/CSS </Text>
                         <Text >Experienced</Text>
                     </Stack>
@@ -45,7 +45,7 @@ export default function skills() {
                 </Box>
 
                 <Box>
-                    <Stack mb={1} direction={'row'}>
+                    <Stack spacing={'auto'} mb={1} direction={'row'}>
                         <Text>Java</Text>
                         <Text >Experienced</Text>
                     </Stack>
@@ -53,7 +53,7 @@ export default function skills() {
                 </Box>
 
                 <Box>
-                    <Stack mb={1} direction={'row'}>
+                    <Stack spacing={'auto'} mb={1} direction={'row'}>
                         <Text>React.js</Text>
                         <Text >Experienced</Text>
                     </Stack>
@@ -61,7 +61,7 @@ export default function skills() {
                 </Box>
 
                 <Box>
-                    <Stack mb={1} direction={'row'}>
+                    <Stack  spacing={'auto'} mb={1} direction={'row'}>
                         <Text>Solidity</Text>
                         <Text > Somewhat Experienced</Text>
                     </Stack>
@@ -69,14 +69,14 @@ export default function skills() {
                 </Box>
 
                 <Box>
-                    <Stack mb={1} direction={'row'}>
+                    <Stack spacing={'auto'} mb={1} direction={'row'}>
                         <Text>Python</Text>
                         <Text > Somewhat Experienced</Text>
                     </Stack>
                     <Progress value={70} />
                 </Box>
                 <Box>
-                    <Stack mb={1} direction={'row'}>
+                    <Stack spacing={'auto'} mb={1} direction={'row'}>
                         <Text>Salesforce CRM </Text>
              
                         <Text > Somewhat Experienced</Text>
@@ -84,7 +84,7 @@ export default function skills() {
                     <Progress value={70} />
                 </Box>
                 <Box>
-                    <Stack mb={1} direction={'row'}>
+                    <Stack spacing={'auto'} mb={1} direction={'row'}>
                         <Text>SQL</Text>
                         <Text > Familiar</Text>
                     </Stack>

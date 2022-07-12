@@ -3,7 +3,7 @@ import { ReactElement } from 'react';
 import { Link, useBreakpointValue, Box, SimpleGrid, Icon, Text, Stack, Flex, Heading } from '@chakra-ui/react';
 import { FcAssistant, FcDonate, FcInTransit } from 'react-icons/fc';
 import Highlighter from "react-highlight-words";
-
+import Emoji from './emoji';
 
 const Highlighted = ({ text = "", highlight = "" }) => {
     if (!highlight.trim()) {
@@ -32,13 +32,13 @@ export default function Me() {
     
     pr={20} 
     pl={20}>
-        <Heading mb={5}>about me. </Heading>
+        <Heading mb={6}>about me. <Emoji symbol="😀"/></Heading>
     
     {/* <Highlighted 
       text="the quick brown fox jumps over the lazy dog"
       highlight="fox"
     /> */}
-
+      
        
          <Text mb={4} fontSize={{ base: 'lg', lg: 'xl' }} color={'gray.700'}>
          <span style={{fontWeight: 'bold'}}>now:</span> Working at <Link href="https://healthy.kaiserpermanente.org/northern-california/front-door" bg={"blue.100"}>Kaiser Permanente</Link> as a Product Management Intern and helping grow the 
@@ -46,15 +46,15 @@ export default function Me() {
              club as the incoming Vice President.
             
         </Text>  
-
+        
         <Text mb={2} fontSize={{ base: 'lg', lg: 'xl' }} color={'gray.700'}>
         <span style={{fontWeight: 'bold'}}>before:   </span> During the spring, I worked at <Link bg="gray.200"href="https://www.berkeleypharmatech.com/"> Berkeley Pharma Tech</Link> as a Software Engineer Intern. I worked on 
-            a collection of 10,000 art tokens to fund research into fast-growing redwood trees. 
+            a collection of tokens to fund research into fast-growing redwood trees. 
             
         
         </Text>  
         <Text mb={4} fontSize={{ base: 'lg', lg: 'xl' }} color={'gray.700'}>
-        Prior to BPT I worked as a Web Developer at <Link bg={"green.100"}>Gladiators of Communication</Link>, where I created website to teach public speaking to kids through a collaborative game.
+        Prior to BPT I worked as a Web Developer at <Link bg={"gray.200"}>Gladiators of Communication</Link>, where I created website to teach public speaking to kids through a collaborative game.
         </Text>  
 
         <Text mb={4}fontSize={{ base: 'lg', lg: 'xl' }} color={'gray.700'}>

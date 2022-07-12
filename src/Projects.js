@@ -11,35 +11,25 @@ import {
     ModalBody,
     ModalCloseButton,
   } from '@chakra-ui/react'
- 
+import Emoji from './emoji';
 
-const Feature = ({ title, text, icon, lnk, linkcolor, l1, l2, l3}: FeatureProps) => {
+const Feature = ({ url, title, text, icon, lnk, linkcolor, l1, l2, l3}: FeatureProps) => {
   return (
     <Stack //bg={"blue.100"}
     >
+    <Link href={lnk}>
     
-      {/* <Flex 
-        w={16}
-        h={16}
-        align={'center'}
-        justify={'center'}
-        color={'white'}
-        rounded={'full'}
-        bg={'gray.100'}
-        mb={1}>
-        {icon}
-      </Flex> } */}
-      {/* {<Image
-            height={'50vh'}
-            rounded={15}
-            maxW={"80%"}
-
+    {<Image
+            height={'10vh'}
+          
+            maxW={"90%"}
             alt={'Login Image'}
-            objectFit={'cover'}
+            objectFit={'contain'}
             src={
-                'https://scontent-lax3-2.xx.fbcdn.net/v/t1.15752-9/291390144_602015891351321_3818869550158185555_n.png?_nc_cat=111&ccb=1-7&_nc_sid=ae9488&_nc_ohc=uYIoWUdGhqAAX_B-ReS&_nc_ht=scontent-lax3-2.xx&oh=03_AVI8vDIQahAbISDwbGWifu2VUgQ8ye8PxpOToUEbgQ_DAw&oe=62F210F4'
+                url
              }
-          /> } */}
+      /> } 
+      </Link>
       
       <Text fontWeight={600}><Link bg={linkcolor} href={lnk}>{title}</Link></Text>
       <Text color={'gray.600'}>{text}</Text>
@@ -59,7 +49,7 @@ export default function Projects() {
     //borderRadius={10} bg={"gray.100"} 
     pr={20}
     pl={20} >
-        <Heading  mb={5}>my projects. </Heading>
+        <Heading mb={6}>my projects. <Emoji symbol="🛠"/> </Heading>
         
         <SimpleGrid columns={{ base: 1, md: 2 }} spacing={10}>
           
@@ -67,12 +57,14 @@ export default function Projects() {
             icon={<Icon as={FcAssistant} w={10} h={10} />}
             title={'cryptaid'}
             text={
-                'Web 3.0 Website that allows users to donate with anonymity and safety for donating to organizations using the concept of decentralized apps.'
+                'Web 3.0 Website that allows users to donate with anonymity and safety  to organizations using the concept of decentralized apps.'
             }
             lnk={"https://cryptaid-theta.vercel.app/"}
             //linkcolor={"red.200"}
             l1={"Solidity"}
             l2={"React"}
+            l3={"Moralis SDK"}
+            url={"https://scontent-lax3-2.xx.fbcdn.net/v/t1.15752-9/284296807_1043202276608598_5288984272005013496_n.png?_nc_cat=111&ccb=1-7&_nc_sid=ae9488&_nc_ohc=bN_jL3V0x4AAX-g07Ep&_nc_ht=scontent-lax3-2.xx&oh=03_AVJzNnOi-klxPAikT1wv9_manQP8Bed_9uxSLOzKHzIvng&oe=62F50971"}
           />
           
        
@@ -87,6 +79,8 @@ export default function Projects() {
           //linkcolor={"green.200"}
           l1={"HTML/CSS"}
           l2={"React"}
+          l3={"AssemblyAI API"}
+          url={"https://scontent-lax3-2.xx.fbcdn.net/v/t1.15752-9/292898169_765432174793512_9031754195299760581_n.png?_nc_cat=103&ccb=1-7&_nc_sid=ae9488&_nc_ohc=s10UlevTMe4AX9wCvqy&_nc_oc=AQnt7ZCRgkm7s3t_mrpQofCzyhHNWlO-r8KUuioSMIR0NoLfyRhsBjVzcRqjwQ8DYExtE4617HfWYq9-TNIzg29C&_nc_ht=scontent-lax3-2.xx&oh=03_AVLnztf3YAuFSgqcUMBSOzqf3yF13eHTvA28JT0zVeyhkQ&oe=62F47BCA"}
         />
        
         <Feature
@@ -99,6 +93,8 @@ export default function Projects() {
           //linkcolor={"blue.200"}
           l1={"Firebase"}
           l2={"React"}
+          l3={"Google Maps API"}
+          url={"https://scontent-lax3-2.xx.fbcdn.net/v/t1.15752-9/292851052_5177457908955876_1138628819411982008_n.png?_nc_cat=111&ccb=1-7&_nc_sid=ae9488&_nc_ohc=aqPeH4Bn6pIAX8O2eOk&_nc_ht=scontent-lax3-2.xx&oh=03_AVLjFZkG3tbZpg6EBRJUMzhWaNrVEivPh-XG5_CByOS3dA&oe=62F4C27C"}
         />
         <Feature
           icon={<Icon as={FcInTransit} w={10} h={10} />}
@@ -108,9 +104,10 @@ export default function Projects() {
           }
           lnk={"https://devpost.com/software/instaaid-3rmdzf"}
           //linkcolor={"yellow.200"}
-          l1={"Node.js"}
-          l2={"Swift/Xcode"}
+          l2={"Node.js"}
+          l1={"Swift/Xcode"}
           l3={"Sketch"}
+          url={"https://scontent-lax3-1.xx.fbcdn.net/v/t1.15752-9/292781171_794643835235270_4631492321257971741_n.png?_nc_cat=104&ccb=1-7&_nc_sid=ae9488&_nc_ohc=cb08A_itsXMAX9cJ0Q8&_nc_ht=scontent-lax3-1.xx&oh=03_AVKB_tUBtgM4XqUWPuoh8AHb7povb6DHrR4chzVX-tNDqQ&oe=62F37C8A"}
         />
       </SimpleGrid>
     </Box>
