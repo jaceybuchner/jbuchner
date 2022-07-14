@@ -81,7 +81,7 @@ export default function Navbar() {
 
               {Links.map((link) => (
                 <NavLink key={link}
-                //onClick={this.handleScroll.bind(this, `${link}`)}
+                
                 > 
                  <a href={`#${link}`}  >{link}</a> 
                 </NavLink>
@@ -101,7 +101,9 @@ export default function Navbar() {
             <Stack as={'nav'} spacing={4}>
 
               {Links.map((link) => (
-                <NavLink key={link}>{link}</NavLink>
+                <NavLink key={link}> 
+                 <a href={`#${link}`}  >{link}</a> 
+                </NavLink>
               ))}
 
             </Stack>

@@ -113,7 +113,7 @@ import Emoji from './emoji';
                 Resume
               </Button>
 
-              <Link isExternal style={{textDecoration: 'none'}} href="jaceybuchner@gmail.com">
+              <Link isExternal style={{textDecoration: 'none'}} href="mailto:jaceybuchner@gmail.com">
               <Button
                 rounded={'9'}
                 bg={'gray.200'}
