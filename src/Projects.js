@@ -46,7 +46,7 @@ const Feature = ({ url, title, text, icon, lnk, linkcolor, l1, l2, l3}: FeatureP
 
 export default function Projects() {
   return (
-    <Box id="Projects" margin={10} 
+    <Box id="Projects" margin={{base: 0, md: 10}}
     //borderRadius={10} bg={"gray.100"} 
     pr={20}
     pl={20} >

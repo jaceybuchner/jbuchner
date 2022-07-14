@@ -17,7 +17,7 @@ import Emoji from './emoji';
       <Stack 
       
       p={10} 
-      m={10} 
+      margin={{base: 0, md: 10}}
       
       //borderRadius={1}
       //bg={"gray.100"}
@@ -89,42 +89,43 @@ import Emoji from './emoji';
             <Stack direction={{ base: 'row', md: 'row' }} spacing={4}>
                 
               <Link isExternal style={{textDecoration: 'none'}} href="https://www.linkedin.com/in/jaceybuchner/">
-              <Button
-                
-                rounded={'9'}
-                bg={'gray.200'}
-                color={'blackAlpha.700'}
-                _hover={{
-                  bg: 'gray.500',
-                  color: 'white',
-                }}>
-                LinkedIn
-              </Button>
+                <Button
+                  rounded={'9'}
+                  bg={'gray.200'}
+                  color={'blackAlpha.700'}
+                  _hover={{
+                    bg: 'gray.500',
+                    color: 'white',
+                  }}>
+                  LinkedIn
+                </Button>
               </Link>
 
-              <Button
-                rounded={'9'}
-                bg={'gray.200'}
-                color={'blackAlpha.700'}
-                _hover={{
-                  bg: 'gray.500',
-                  color: 'white',
-                }}>
-                Resume
-              </Button>
+              <Link isExternal style={{textDecoration: 'none'}} href="https://www.google.com">
+                <Button
+                  rounded={'9'}
+                  bg={'gray.200'}
+                  color={'blackAlpha.700'}
+                  _hover={{
+                    bg: 'gray.500',
+                    color: 'white',
+                  }}>
+                  Resume
+                </Button>
+              </Link>
 
               <Link isExternal style={{textDecoration: 'none'}} href="mailto:jaceybuchner@gmail.com">
-              <Button
-                rounded={'9'}
-                bg={'gray.200'}
-                color={'blackAlpha.700'}
-                _hover={{
-                  bg: 'gray.500',
-                  color: 'white',
-                }}>
-                Email
-              </Button>
-                </Link>
+                <Button
+                  rounded={'9'}
+                  bg={'gray.200'}
+                  color={'blackAlpha.700'}
+                  _hover={{
+                    bg: 'gray.500',
+                    color: 'white',
+                  }}>
+                  Email
+                </Button>
+              </Link>
             </Stack>
           </Stack>
         </Flex>

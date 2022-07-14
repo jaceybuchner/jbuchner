@@ -19,7 +19,7 @@ import Emoji from './emoji';
 
 export default function skills() {
     return(
-        <Box id="Skills" margin={10} 
+        <Box id="Skills" margin={{base: 0, md: 10}} 
         //borderRadius={10} bg={"gray.100"} 
         pr={20}
         pl={20}
