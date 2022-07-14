@@ -26,13 +26,19 @@ import Skills from './skills';
 import SFooter from './SmallFooter';
 import Emoji from './emoji';
 
+
+
 function App() {
   return (
     <ChakraProvider 
+    
     theme={theme}>
+      <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap" rel="stylesheet"></link>
       <Box 
       borderWidth={0.1}
       fontSize={'xl'} >
+        
+
         <Navbar />
         
         <SplitScreen />
@@ -54,7 +60,7 @@ function App() {
           spacing={4}
           justify={{ base: 'center', md: 'center' }}
           align={{ base: 'center', md: 'center' }}>
-        <Text fontSize={'sm'}>Create by Jacey Buchner w/ <Emoji symbol="🍵"/>  and <Emoji symbol="❤️" /></Text>
+        <Text fontSize={'sm'}>created by Jacey Buchner w/ <Emoji symbol="🍵"/>  and <Emoji symbol="❤️" /></Text>
         
       </Container>
     </Box>
