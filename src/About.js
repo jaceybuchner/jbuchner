@@ -15,9 +15,10 @@ import Emoji from './emoji';
   export default function SplitScreen() {
     return (
       <Stack 
-
+      
       p={10} 
       m={10} 
+      
       //borderRadius={1}
       //bg={"gray.100"}
       
@@ -33,8 +34,8 @@ import Emoji from './emoji';
             
      
           {<Image
-            height={'50vh'}
-            rounded={15}
+            height={'60vh'}
+            rounded={10}
             
             alt={'Login Image'}
             objectFit={'cover'}

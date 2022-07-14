@@ -32,7 +32,7 @@ const Feature = ({ url, title, text, icon, lnk, linkcolor, l1, l2, l3}: FeatureP
       /> } 
       </Link>
       
-      <Text fontWeight={600}><Link isExternal bg={linkcolor} href={lnk}> {title} <ExternalLinkIcon mx='1px' /></Link></Text>
+      <Text fontWeight={600}><Link isExternal bg={linkcolor} href={lnk}> {title} <ExternalLinkIcon mx='1px' /> </Link></Text>
       <Text color={'gray.600'}>{text}</Text>
       <Stack direction='row'>
       <Text fontSize={14}>STACK: </Text> 
@@ -46,7 +46,7 @@ const Feature = ({ url, title, text, icon, lnk, linkcolor, l1, l2, l3}: FeatureP
 
 export default function Projects() {
   return (
-    <Box margin={10} 
+    <Box id="Projects" margin={10} 
     //borderRadius={10} bg={"gray.100"} 
     pr={20}
     pl={20} >

@@ -19,10 +19,11 @@ import Emoji from './emoji';
 
 export default function skills() {
     return(
-        <Box margin={10} 
+        <Box id="Skills" margin={10} 
         //borderRadius={10} bg={"gray.100"} 
         pr={20}
-        pl={20} >
+        pl={20}
+        pb={20} >
             <Heading mb={9}>my skills.<Emoji symbol=" 🧮"/> </Heading>
             
             <SimpleGrid fontSize={"lg"}columns={{ base: 1, md: 2 }} spacing={10}>
@@ -91,6 +92,7 @@ export default function skills() {
                     <Progress value={57} />
                 </Box>
              </SimpleGrid>
+            
         </Box>
     );
 }

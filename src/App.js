@@ -23,9 +23,13 @@ import Skills from './skills';
 
 function App() {
   return (
-    <ChakraProvider theme={theme}>
-      <Box fontSize={'xl'} >
+    <ChakraProvider 
+    theme={theme}>
+      <Box 
+      borderWidth={0.1}
+      fontSize={'xl'} >
         <Navbar />
+        
         <SplitScreen />
         <br></br>
         <Me />
