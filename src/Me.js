@@ -37,8 +37,8 @@ export default function Me() {
             <Box minWidth={"150"}pr={'5'}><Text fontWeight={'bold'}>now: </Text></Box>
           
             <Text fontSize={{ base: 'lg', lg: 'xl' }} color={'gray.700'}>
-                Working at <Link href="https://healthy.kaiserpermanente.org/northern-california/front-door" bg={"gray.200"}>Kaiser Permanente</Link> as a Product Management Intern and helping grow the 
-                <Link href="https://www.blockchainatucsb.com/" isExternal bg={"gray.200"}> Blockchain @ UCSB </Link>
+                Currently, I am working at <Link href="https://healthy.kaiserpermanente.org/northern-california/front-door" color={"blue.600"}>Kaiser Permanente</Link> as a Product Management Intern and helping grow the 
+                <Link href="https://www.blockchainatucsb.com/" isExternal color={"blue.600"}> Blockchain @ UCSB </Link>
                 club as the incoming Vice President.
             </Text>  
           </Flex>
@@ -48,10 +48,10 @@ export default function Me() {
           <Box minWidth={"150"}pr={'5'}><Text fontWeight={'bold'}>before: </Text></Box>
 
             <Text fontSize={{ base: 'lg', lg: 'xl' }} color={'gray.700'}>
-            During the spring, I worked at <Link bg="gray.200"href="https://www.berkeleypharmatech.com/"> Berkeley Pharma Tech</Link> as a Software Engineer Intern. I worked on 
-                creating a collection of 10,000 NFTs to fund research into fast-growing redwood trees. Blockchain Dev!
+            During the spring, I worked at <Link color={"blue.600"} href="https://www.berkeleypharmatech.com/"> Berkeley Pharma Tech</Link> as a Software Engineer Intern, where my team and I
+                used a javascript art engine to create a collection of 10,000 Non-fungible-tokens to fund research into fast-growing redwood trees.
                 <br></br><br></br>
-                Prior to BPT I worked as a Web Developer at <Link bg={"gray.200"}>Gladiators of Communication</Link>, where I helped create a website to teach public speaking to kids through a collaborative game.
+                Prior to BPT I worked as a Web Developer at <Link color={"blue.600"}>Gladiators of Communication</Link>, where I helped create a website to teach public speaking to kids through a collaborative game.
             </Text>  
           </Flex>
 

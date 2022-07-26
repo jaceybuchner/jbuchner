@@ -1,4 +1,4 @@
-import Profile from './Profile';
+
 import {
     Button,
     Flex,
@@ -16,7 +16,9 @@ import Emoji from './emoji';
     return (
       <Stack 
       
-      p={10} 
+      pr={10}
+      pl={10}
+      pt={20}
       margin={{base: 0, md: 10}}
       
       //borderRadius={1}
@@ -34,7 +36,7 @@ import Emoji from './emoji';
             
      
           {<Image
-            height={'60vh'}
+            height={{base: '40vh', md: '60vh'}}
             rounded={10}
             
             alt={'Login Image'}
@@ -101,7 +103,7 @@ import Emoji from './emoji';
                 </Button>
               </Link>
 
-              <Link isExternal style={{textDecoration: 'none'}} href="https://www.google.com">
+              <Link style={{textDecoration: 'none'}} href="/jacey_b_resume.pdf" >
                 <Button
                   rounded={'9'}
                   bg={'gray.200'}
