@@ -66,7 +66,7 @@ export default function Projects() {
             l1={"Solidity"}
             l2={"React"}
             l3={"Moralis SDK"}
-            url={"https://scontent-lax3-2.xx.fbcdn.net/v/t1.15752-9/284296807_1043202276608598_5288984272005013496_n.png?_nc_cat=111&ccb=1-7&_nc_sid=ae9488&_nc_ohc=bN_jL3V0x4AAX-g07Ep&_nc_ht=scontent-lax3-2.xx&oh=03_AVJzNnOi-klxPAikT1wv9_manQP8Bed_9uxSLOzKHzIvng&oe=62F50971"}
+            url={"https://scontent.xx.fbcdn.net/v/t1.15752-9/284296807_1043202276608598_5288984272005013496_n.png?stp=dst-png_p206x206&_nc_cat=111&ccb=1-7&_nc_sid=aee45a&_nc_ohc=wnhk18TLwe8AX92F-QS&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdT7lcUXG8eOePTv7hBWw1SnfeHiA93Tv4JTnXbLGWG_Pg&oe=63836B71"}
           />
           
        
@@ -82,7 +82,7 @@ export default function Projects() {
           l1={"HTML/CSS"}
           l2={"React"}
           l3={"AssemblyAI API"}
-          url={"https://scontent-lax3-2.xx.fbcdn.net/v/t1.15752-9/292898169_765432174793512_9031754195299760581_n.png?_nc_cat=103&ccb=1-7&_nc_sid=ae9488&_nc_ohc=s10UlevTMe4AX9wCvqy&_nc_oc=AQnt7ZCRgkm7s3t_mrpQofCzyhHNWlO-r8KUuioSMIR0NoLfyRhsBjVzcRqjwQ8DYExtE4617HfWYq9-TNIzg29C&_nc_ht=scontent-lax3-2.xx&oh=03_AVLnztf3YAuFSgqcUMBSOzqf3yF13eHTvA28JT0zVeyhkQ&oe=62F47BCA"}
+          url={"https://scontent.xx.fbcdn.net/v/t1.15752-9/293035957_725125318599966_5078447619404852796_n.png?stp=dst-png_s350x350&_nc_cat=100&ccb=1-7&_nc_sid=aee45a&_nc_ohc=4I0RYRf_0qEAX-wUnOx&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdSSZh6s66IGgbLdRfCaTeozi5xE7c_4PfOMuZh8h7TFyw&oe=6381367A"}
         />
        
         <Feature
@@ -96,7 +96,7 @@ export default function Projects() {
           l1={"Firebase"}
           l2={"React"}
           l3={"Google Maps API"}
-          url={"https://scontent-lax3-2.xx.fbcdn.net/v/t1.15752-9/292851052_5177457908955876_1138628819411982008_n.png?_nc_cat=111&ccb=1-7&_nc_sid=ae9488&_nc_ohc=aqPeH4Bn6pIAX8O2eOk&_nc_ht=scontent-lax3-2.xx&oh=03_AVLjFZkG3tbZpg6EBRJUMzhWaNrVEivPh-XG5_CByOS3dA&oe=62F4C27C"}
+          url={"https://scontent.xx.fbcdn.net/v/t1.15752-9/292851052_5177457908955876_1138628819411982008_n.png?stp=dst-png_s526x296&_nc_cat=111&ccb=1-7&_nc_sid=aee45a&_nc_ohc=qIGvoO8sa68AX_ltgyz&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdTbpQnbghfRqmZJfU8Sg2vbo8t6mNg5kDXbdKS-HOH0-g&oe=6383247C"}
         />
         <Feature
           icon={<Icon as={FcInTransit} w={10} h={10} />}
@@ -109,7 +109,7 @@ export default function Projects() {
           l2={"Node.js"}
           l1={"Swift/Xcode"}
           l3={"Sketch"}
-          url={"https://scontent-lax3-1.xx.fbcdn.net/v/t1.15752-9/292781171_794643835235270_4631492321257971741_n.png?_nc_cat=104&ccb=1-7&_nc_sid=ae9488&_nc_ohc=cb08A_itsXMAX9cJ0Q8&_nc_ht=scontent-lax3-1.xx&oh=03_AVKB_tUBtgM4XqUWPuoh8AHb7povb6DHrR4chzVX-tNDqQ&oe=62F37C8A"}
+          url={"https://scontent.xx.fbcdn.net/v/t1.15752-9/292781171_794643835235270_4631492321257971741_n.png?stp=dst-png_s206x206&_nc_cat=104&ccb=1-7&_nc_sid=aee45a&_nc_ohc=t4zj1-wGO8cAX-h6JOV&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdR_8oR4YwV1gaTkiCPXGb_-6XshamMH9irQ4r_4Pda7ew&oe=6381DE8A"}
         />
       </SimpleGrid>
     </Box>

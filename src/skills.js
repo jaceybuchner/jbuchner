@@ -62,6 +62,14 @@ export default function skills() {
                 </Box>
 
                 <Box>
+                    <Stack spacing={'auto'} mb={1} direction={'row'}>
+                        <Text>Python</Text>
+                        <Text > Experienced</Text>
+                    </Stack>
+                    <Progress value={80} />
+                </Box>
+                
+                <Box>
                     <Stack  spacing={'auto'} mb={1} direction={'row'}>
                         <Text>Solidity</Text>
                         <Text > Somewhat Experienced</Text>
@@ -69,13 +77,7 @@ export default function skills() {
                     <Progress value={70} />
                 </Box>
 
-                <Box>
-                    <Stack spacing={'auto'} mb={1} direction={'row'}>
-                        <Text>Python</Text>
-                        <Text > Somewhat Experienced</Text>
-                    </Stack>
-                    <Progress value={70} />
-                </Box>
+                
                 <Box>
                     <Stack spacing={'auto'} mb={1} direction={'row'}>
                         <Text>Salesforce CRM </Text>

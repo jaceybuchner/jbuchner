@@ -42,7 +42,7 @@ import Emoji from './emoji';
             alt={'Login Image'}
             objectFit={'cover'}
             src={
-                'https://scontent-lax3-2.xx.fbcdn.net/v/t1.15752-9/281354924_996970160954592_3957231374639651999_n.png?_nc_cat=100&ccb=1-7&_nc_sid=ae9488&_nc_ohc=qFPbAkOgWncAX_HaZo1&tn=6jsJUdONq_9vkfMx&_nc_ht=scontent-lax3-2.xx&oh=03_AVLi6SwuWgesqeJX6em_RTDpDR80fgpg5purIMzFPF9djg&oe=62F200BE'
+                'https://scontent.xx.fbcdn.net/v/t1.15752-9/281354924_996970160954592_3957231374639651999_n.png?stp=dst-png_p206x206&_nc_cat=100&ccb=1-7&_nc_sid=aee45a&_nc_ohc=CnLuXgCxH7QAX-yCUOs&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdQRXzF9AR7G8AG1lo8j8M6Y5yiJ1Zb4A6nq80AfjBDAuw&oe=638062BE'
              }
           /> }
         </Flex>
