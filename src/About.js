@@ -1,3 +1,4 @@
+import head from '../src/adobe_head.svg';
 
 import {
     Button,
@@ -39,10 +40,10 @@ import Emoji from './emoji';
             height={{base: '40vh', md: '60vh'}}
             rounded={10}
             
-            alt={'Login Image'}
+            alt={'Cover Image'}
             objectFit={'cover'}
             src={
-                'https://scontent.xx.fbcdn.net/v/t1.15752-9/281354924_996970160954592_3957231374639651999_n.png?stp=dst-png_p206x206&_nc_cat=100&ccb=1-7&_nc_sid=aee45a&_nc_ohc=CnLuXgCxH7QAX-yCUOs&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdQRXzF9AR7G8AG1lo8j8M6Y5yiJ1Zb4A6nq80AfjBDAuw&oe=638062BE'
+                'https://scontent-lax3-2.xx.fbcdn.net/v/t1.15752-9/281354924_996970160954592_3957231374639651999_n.png?_nc_cat=100&ccb=1-7&_nc_sid=ae9488&_nc_ohc=kD6mRiKfEfwAX8UiMKX&tn=6jsJUdONq_9vkfMx&_nc_ht=scontent-lax3-2.xx&oh=03_AdRIQNBcfr2-3KIYRohoffkE5iXpLu9JRudm83sH6LE4Kw&oe=63B3CD3E'
              }
           /> }
         </Flex>

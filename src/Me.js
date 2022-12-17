@@ -32,15 +32,29 @@ export default function Me() {
     id="About" margin={{base: 0, md: 10}} pr={20} pl={20}>
 
         <Heading mb={6}>about me. <Emoji symbol="😀"/></Heading>
-        
+
+        <Flex flexDirection={{ base: 'column', md: 'row' }}>
+            <Box minWidth={"150"}pr={'5'}><Text fontWeight={'bold'}>next: </Text></Box>
+          
+            <Text fontSize={{ base: 'lg', lg: 'xl' }} color={'gray.700'}>
+                I will be interning at 
+                <Link href="google.com" isExternal color={"blue.600"}> Google </Link>
+                for the summer of 23!
+                 
+                
+            </Text>  
+          </Flex>
+          <br></br>
+
           <Flex flexDirection={{ base: 'column', md: 'row' }}>
             <Box minWidth={"150"}pr={'5'}><Text fontWeight={'bold'}>now: </Text></Box>
           
             <Text fontSize={{ base: 'lg', lg: 'xl' }} color={'gray.700'}>
-            Finding Scam Contracts on the Ethereum Blockchain under the guidance of Professors Giovanni Vigna and Christopher Kruegel in the  
-                 <Link href="https://seclab.cs.ucsb.edu/" isExternal color={"blue.600"}> SecLab </Link>
-                 and helping grow the 
-                <Link href="https://www.blockchainatucsb.com/" isExternal color={"blue.600"}> Blockchain @ UCSB </Link>
+                I am currently working on the project: "Finding Scam Contracts on the Ethereum Blockchain" under the guidance of Professors Giovanni Vigna 
+                and Christopher Kruegel in the  
+                 <Link href="https://seclab.cs.ucsb.edu/" isExternal color={"blue.600"}> SecLab. </Link>
+                 I am also helping grow the
+                <Link href="https://blockchainucsb.com/" isExternal color={"blue.600"}> Blockchain @ UCSB </Link>
                 club as the Vice President.
             </Text>  
           </Flex>

@@ -25,14 +25,18 @@ import Project from './Project';
 import Skills from './skills';
 import SFooter from './SmallFooter';
 import Emoji from './emoji';
+import { Analytics } from '@vercel/analytics/react';
 
 
 
-function App() {
+
+function App({ Component, pageProps }) {
   return (
-    <ChakraProvider 
+    <>
     
-    theme={theme}>
+    <ChakraProvider theme={theme}>
+      
+    
       <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap" rel="stylesheet"></link>
       <Box 
       borderWidth={0.1}
@@ -65,29 +69,13 @@ function App() {
       </Container>
     </Box>
       </Box>
+      
     </ChakraProvider>
+    <Analytics/>
+    
+    </>
   );
 }
 
-/** removed from react chakra template
- * 
- *  <Grid minH="100vh" p={3}>
-          <ColorModeSwitcher justifySelf="flex-end" />
-          <VStack spacing={8}>
-            <Logo h="40vmin" pointerEvents="none" />
-            <Text>
-              Edit <Code fontSize="xl">src/App.js</Code> and save to reload.
-            </Text>
-            <Link
-              color="teal.500"
-              href="https://chakra-ui.com"
-              fontSize="2xl"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Learn Chakra
-            </Link>
-          </VStack>
-        </Grid>
- */
+
 export default App;
